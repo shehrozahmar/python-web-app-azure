@@ -14,4 +14,6 @@ az deployment group create --resource-group $RESOURCE_GROUP --template-file /Use
 
 # Deploy db NSG
 az deployment group create --resource-group $RESOURCE_GROUP --template-file /Users/admin/Desktop/az/Python-webapp/python-web-app-azure/templates/nsg-db.json
+# Deployment of virtual machine 
 
+az deployment group create --resource-group $RESOURCE_GROUP --template-file /Users/admin/Desktop/az/Python-webapp/python-web-app-azure/templates/vm-template.json
