@@ -17,3 +17,7 @@ az deployment group create --resource-group $RESOURCE_GROUP --template-file /Use
 # Deployment of virtual machine 
 
 az deployment group create --resource-group $RESOURCE_GROUP --template-file /Users/admin/Desktop/az/Python-webapp/python-web-app-azure/templates/vm-template.json
+
+#Deploy storage account
+
+az deployment group create --resource-group $RESOURCE_GROUP --template-file /Users/admin/Desktop/az/Python-webapp/python-web-app-azure/templates/storage-template.json
